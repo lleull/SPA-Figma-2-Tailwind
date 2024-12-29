@@ -1,6 +1,9 @@
 import Header from '@/app/components/Header/Header'
 import React from 'react'
 import { landingParagraph } from '@/app/utils/landingDatas'
+import illu1 from "./../../assets/illu/Illustrations_1.png"
+import Image from 'next/image'
+import { Payments } from '@/app/utils/landingDatas'
 const LandingPage = () => {
     return (
         <div>
@@ -15,8 +18,14 @@ const LandingPage = () => {
                         {landingParagraph.subParagarph}
                     </p>
 
-                </div>
+                    <div className='flex flex-row items-center gap-10'>
+                        <Image src={Payments.mastercard} alt="s" />
+                        <Image src={Payments.paypal} alt="s" />
+                        <Image src={Payments.visa} alt="s" />
+                    </div>
 
+                </div>
+                <Image src={illu1} alt="s" />
             </div>
         </div>
     )

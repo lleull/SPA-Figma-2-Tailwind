@@ -1,3 +1,4 @@
+import { options } from '@/app/utils/landingDatas'
 import React from 'react'
 
 const Header = () => {
@@ -7,7 +8,13 @@ const Header = () => {
 
 
                 <ul>
-                    <li>hey</li>
+                    {
+                        options.map((i) => {
+                            return (
+                                <li key={i.id}>{i.name}</li>
+                            )
+                        })
+                    }
                 </ul>
             </div>
             <div>
