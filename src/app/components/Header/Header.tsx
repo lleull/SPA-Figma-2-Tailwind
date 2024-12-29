@@ -2,7 +2,24 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div>Header</div>
+        <div>
+            <div>
+
+
+                <ul>
+                    <li>hey</li>
+                </ul>
+            </div>
+            <div>
+                <button>
+                    Sign in
+                </button>
+                <button>
+                    log in
+                </button>
+            </div>
+
+        </div>
     )
 }
 
