@@ -15,7 +15,7 @@ export const options = [{
     name: "FAq"
 },]
 export const landingParagraph = {
-    mainParagraph: "Always Track & Analyze Your Business Statistics To Succeed. ",
+    mainParagraph: " Analyze Your Business Statistics To Succeed. ",
     subParagarph: "A better way to manage your sales, team, clients & marketing— on a single platform. Powerful, affordable & easy."
 }
 export const Payments = {

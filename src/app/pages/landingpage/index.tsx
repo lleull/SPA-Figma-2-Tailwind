@@ -11,8 +11,8 @@ const LandingPage = () => {
             <Header />
             <div>
                 <div className='flex flex-col items-start'>
-                    <p>
-                        {landingParagraph.mainParagraph}
+                    <p className='text-[40px] w-1/2'>
+                        Always Track & <br /> {landingParagraph.mainParagraph}
                     </p>
                     <p>
                         {landingParagraph.subParagarph}
