@@ -4,10 +4,12 @@ import SecondPage from "./pages/secondpage";
 
 export default function Home() {
   return (
-    <div className="w-full pl-96 pr-96 flex-col flex">
+    <div className="w-full items-center justify-center flex-col flex">
+      <div className="w-[70%]">
 
-      <LandingPage />
-      <SecondPage />
+        <LandingPage />
+        <SecondPage />
+      </div>
     </div>
   );
 }
